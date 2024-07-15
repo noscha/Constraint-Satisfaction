@@ -1,0 +1,11 @@
+<instance format="XCSP3" type="CSP">
+  <variables>
+    <array id="x" note="Variables: x[i][j] is True if there is a tent at cell (i, j)" size="[8][8]"> 0 1 </array>
+  </variables>
+  <constraints>
+    <sum>
+      <list> x[][] </list>
+      <condition> (eq,8) </condition>
+    </sum>
+  </constraints>
+</instance>
